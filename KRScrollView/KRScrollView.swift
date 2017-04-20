@@ -33,6 +33,9 @@ class KRScrollView: UIScrollView {
         }
     }
     
+    /**
+     This method will deternine the the correct contentOffset based on the ratio passed in
+     */
     func determineNewContentOffsetForRatio(ratio: CGPoint) {
         if var frame = self.contentView?.frame {
             // Adjust the frame to be zero based since it can have a negative origin
