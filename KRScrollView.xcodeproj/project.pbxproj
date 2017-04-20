@@ -12,6 +12,7 @@
 		273F9ED01EA8630F008AD37D /* KRScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 273F9EC21EA8630F008AD37D /* KRScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		273F9EDA1EA863C0008AD37D /* KRScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9ED91EA863C0008AD37D /* KRScrollView.swift */; };
 		273F9EDB1EA863C0008AD37D /* KRScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9ED91EA863C0008AD37D /* KRScrollView.swift */; };
+		273F9EDD1EA86B93008AD37D /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9EDC1EA86B93008AD37D /* ExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +33,7 @@
 		273F9ECD1EA8630F008AD37D /* KRScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRScrollViewTests.swift; sourceTree = "<group>"; };
 		273F9ECF1EA8630F008AD37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		273F9ED91EA863C0008AD37D /* KRScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRScrollView.swift; sourceTree = "<group>"; };
+		273F9EDC1EA86B93008AD37D /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				273F9EC21EA8630F008AD37D /* KRScrollView.h */,
 				273F9EC31EA8630F008AD37D /* Info.plist */,
 				273F9ED91EA863C0008AD37D /* KRScrollView.swift */,
+				273F9EDC1EA86B93008AD37D /* ExampleViewController.swift */,
 			);
 			path = KRScrollView;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				273F9EDA1EA863C0008AD37D /* KRScrollView.swift in Sources */,
+				273F9EDD1EA86B93008AD37D /* ExampleViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
