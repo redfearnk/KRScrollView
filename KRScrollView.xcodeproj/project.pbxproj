@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273F9EC91EA8630F008AD37D /* KRScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273F9EBF1EA8630F008AD37D /* KRScrollView.framework */; };
+		273F9ECE1EA8630F008AD37D /* KRScrollViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9ECD1EA8630F008AD37D /* KRScrollViewTests.swift */; };
+		273F9ED01EA8630F008AD37D /* KRScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 273F9EC21EA8630F008AD37D /* KRScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273F9EDA1EA863C0008AD37D /* KRScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9ED91EA863C0008AD37D /* KRScrollView.swift */; };
+		273F9EDB1EA863C0008AD37D /* KRScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273F9ED91EA863C0008AD37D /* KRScrollView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		273F9ECA1EA8630F008AD37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 273F9EB61EA8630F008AD37D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273F9EBE1EA8630F008AD37D;
+			remoteInfo = KRScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		273F9EBF1EA8630F008AD37D /* KRScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KRScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		273F9EC21EA8630F008AD37D /* KRScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KRScrollView.h; sourceTree = "<group>"; };
+		273F9EC31EA8630F008AD37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273F9EC81EA8630F008AD37D /* KRScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KRScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		273F9ECD1EA8630F008AD37D /* KRScrollViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KRScrollViewTests.swift; sourceTree = "<group>"; };
+		273F9ECF1EA8630F008AD37D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273F9ED91EA863C0008AD37D /* KRScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KRScrollView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273F9EBB1EA8630F008AD37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273F9EC51EA8630F008AD37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273F9EC91EA8630F008AD37D /* KRScrollView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		273F9EB51EA8630F008AD37D = {
+			isa = PBXGroup;
+			children = (
+				273F9EC11EA8630F008AD37D /* KRScrollView */,
+				273F9ECC1EA8630F008AD37D /* KRScrollViewTests */,
+				273F9EC01EA8630F008AD37D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		273F9EC01EA8630F008AD37D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				273F9EBF1EA8630F008AD37D /* KRScrollView.framework */,
+				273F9EC81EA8630F008AD37D /* KRScrollViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		273F9EC11EA8630F008AD37D /* KRScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				273F9EC21EA8630F008AD37D /* KRScrollView.h */,
+				273F9EC31EA8630F008AD37D /* Info.plist */,
+				273F9ED91EA863C0008AD37D /* KRScrollView.swift */,
+			);
+			path = KRScrollView;
+			sourceTree = "<group>";
+		};
+		273F9ECC1EA8630F008AD37D /* KRScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				273F9ECD1EA8630F008AD37D /* KRScrollViewTests.swift */,
+				273F9ECF1EA8630F008AD37D /* Info.plist */,
+			);
+			path = KRScrollViewTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		273F9EBC1EA8630F008AD37D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273F9ED01EA8630F008AD37D /* KRScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		273F9EBE1EA8630F008AD37D /* KRScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273F9ED31EA8630F008AD37D /* Build configuration list for PBXNativeTarget "KRScrollView" */;
+			buildPhases = (
+				273F9EBA1EA8630F008AD37D /* Sources */,
+				273F9EBB1EA8630F008AD37D /* Frameworks */,
+				273F9EBC1EA8630F008AD37D /* Headers */,
+				273F9EBD1EA8630F008AD37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRScrollView;
+			productName = KRScrollView;
+			productReference = 273F9EBF1EA8630F008AD37D /* KRScrollView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		273F9EC71EA8630F008AD37D /* KRScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273F9ED61EA8630F008AD37D /* Build configuration list for PBXNativeTarget "KRScrollViewTests" */;
+			buildPhases = (
+				273F9EC41EA8630F008AD37D /* Sources */,
+				273F9EC51EA8630F008AD37D /* Frameworks */,
+				273F9EC61EA8630F008AD37D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273F9ECB1EA8630F008AD37D /* PBXTargetDependency */,
+			);
+			name = KRScrollViewTests;
+			productName = KRScrollViewTests;
+			productReference = 273F9EC81EA8630F008AD37D /* KRScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		273F9EB61EA8630F008AD37D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kyle Redfearn";
+				TargetAttributes = {
+					273F9EBE1EA8630F008AD37D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DH272BUE3A;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					273F9EC71EA8630F008AD37D = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = DH272BUE3A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 273F9EB91EA8630F008AD37D /* Build configuration list for PBXProject "KRScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 273F9EB51EA8630F008AD37D;
+			productRefGroup = 273F9EC01EA8630F008AD37D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				273F9EBE1EA8630F008AD37D /* KRScrollView */,
+				273F9EC71EA8630F008AD37D /* KRScrollViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273F9EBD1EA8630F008AD37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273F9EC61EA8630F008AD37D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273F9EBA1EA8630F008AD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273F9EDA1EA863C0008AD37D /* KRScrollView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		273F9EC41EA8630F008AD37D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				273F9EDB1EA863C0008AD37D /* KRScrollView.swift in Sources */,
+				273F9ECE1EA8630F008AD37D /* KRScrollViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273F9ECB1EA8630F008AD37D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273F9EBE1EA8630F008AD37D /* KRScrollView */;
+			targetProxy = 273F9ECA1EA8630F008AD37D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		273F9ED11EA8630F008AD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		273F9ED21EA8630F008AD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		273F9ED41EA8630F008AD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DH272BUE3A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KRScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleredfearn.KRScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		273F9ED51EA8630F008AD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DH272BUE3A;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = KRScrollView/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleredfearn.KRScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		273F9ED71EA8630F008AD37D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DH272BUE3A;
+				INFOPLIST_FILE = KRScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleredfearn.KRScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		273F9ED81EA8630F008AD37D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = DH272BUE3A;
+				INFOPLIST_FILE = KRScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kyleredfearn.KRScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273F9EB91EA8630F008AD37D /* Build configuration list for PBXProject "KRScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273F9ED11EA8630F008AD37D /* Debug */,
+				273F9ED21EA8630F008AD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273F9ED31EA8630F008AD37D /* Build configuration list for PBXNativeTarget "KRScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273F9ED41EA8630F008AD37D /* Debug */,
+				273F9ED51EA8630F008AD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		273F9ED61EA8630F008AD37D /* Build configuration list for PBXNativeTarget "KRScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273F9ED71EA8630F008AD37D /* Debug */,
+				273F9ED81EA8630F008AD37D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 273F9EB61EA8630F008AD37D /* Project object */;
+}
